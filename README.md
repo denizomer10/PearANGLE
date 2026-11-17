@@ -7,7 +7,7 @@ OpenGL ES 1.1, 2.0 and 3.x implementation, running on Metal, that iOS games use
 when PearSilicon runs them on Apple silicon Macs.
 
 PearANGLE targets **Apple silicon Macs only, with the Metal back end only**
-(macOS and Mac Catalyst, arm64). On the `apple-silicon` branch the Direct3D,
+(macOS and Mac Catalyst, arm64). Direct3D,
 desktop OpenGL, Vulkan, WebGPU, null and OpenCL back ends, the HLSL, WGSL and
 SPIR-V shader translators, Windows/Android/Linux/Fuchsia/Ozone platform code,
 Perfetto tracing and the test-suite and trace dependencies are removed; `DEPS`

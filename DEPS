@@ -6,7 +6,7 @@ use_relative_paths = True
 
 gclient_gn_args_file = 'build/config/gclient_args.gni'
 
-gclient_gn_args = ['android_ndk_version',
+gclient_gn_args = [
  'checkout_angle_cl_deps',
  'checkout_angle_dawn_deps',
  'checkout_angle_internal',
